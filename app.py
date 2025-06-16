@@ -62,7 +62,7 @@ def draw_centered(draw, items, area, font, rtl=False, spacing=10):
 
 def generate_iran_plates():
     # Load configuration data from the correct path
-    config_path = os.path.join(IRAN_PLATE_DIR, 'config.json')
+    config_path = os.getenv("CONFIG_IRAN")
     with open(config_path, 'r') as file:
         data = json.load(file)
 
