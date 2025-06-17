@@ -647,6 +647,10 @@ def handle_process_images():
 
     except Exception as e:
         return jsonify({'success': False, 'error': str(e)})
+    
+@app.route("/")
+def index():
+    return "Swapro Flask server is alive!"
 
 if __name__ == '__main__':
     app.run(port=5000)
