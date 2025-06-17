@@ -83,4 +83,4 @@ jobs:
           app-name: 'SWAPROFlask'
           slot-name: 'Production'
           package: .
-          startup-command: 'gunicorn app:app --chdir /home/site/wwwroot'
+          startup-command: 'gunicorn app:app'
