@@ -10,3 +10,4 @@ arabic_reshaper
 gunicorn 
 scikit-image
 python-bidi
+opencv-python-headless
