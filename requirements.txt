@@ -1,4 +1,5 @@
 flask
+flask-cors
 opencv-python
 numpy
 ultralytics
@@ -7,3 +8,5 @@ Pillow
 python-dotenv
 arabic_reshaper
 gunicorn 
+scikit-image
+python-bidi
