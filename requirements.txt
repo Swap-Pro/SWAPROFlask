@@ -11,4 +11,3 @@ gunicorn
 scikit-image
 python-bidi
 opencv-python-headless
-git 
